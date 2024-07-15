@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Personal y Liderazgo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f4f8;
+        }
+        header {
+            background-color: #006699;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #004466;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #003355;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #004466;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Desarrollo Personal y Liderazgo</h1>
+        <p>Bienvenido a mi sitio web personal</p>
+    </header>
+
+    <nav>
+        <a href="#liderazgo">Liderazgo</a>
+        <a href="#motivacion">Motivación</a>
+        <a href="#aprendizaje">Aprendizaje</a>
+    </nav>
+
+    <section id="liderazgo" class="container">
+        <h2>Liderazgo</h2>
+        <p>Soy un líder con 20 años de experiencia en manejo de equipos y ventas. A lo largo de mi carrera, he desarrollado habilidades para inspirar y motivar a los miembros del equipo, fomentando un ambiente de trabajo colaborativo y eficiente. Mi enfoque se centra en el liderazgo basado en valores, donde la integridad, la empatía y la responsabilidad son fundamentales.</p>
+    </section>
+
+    <section id="motivacion" class="container">
+        <h2>Motivación</h2>
+        <p>La motivación es clave para el éxito personal y profesional. A través de mi experiencia, he aprendido diversas técnicas y estrategias para mantenerme motivado y ayudar a otros a encontrar su motivación interna. Creo firmemente en el poder de la actitud positiva y la mentalidad de crecimiento para superar desafíos y alcanzar metas.</p>
+    </section>
+
+    <section id="aprendizaje" class="container">
+        <h2>Aprendizaje</h2>
+        <p>Como maestro en gerencia empresarial y en administración con especialidad en calidad e innovación, valoro profundamente el aprendizaje continuo. Estoy comprometido con la mejora constante y la adquisición de nuevos conocimientos y habilidades. El aprendizaje es un viaje interminable que nos permite adaptarnos y prosperar en un mundo en constante cambio.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Desarrollo Personal y Liderazgo</p>
+    </footer>
+
+</body>
+</html>
